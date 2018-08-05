@@ -1,0 +1,131 @@
+.App{
+  text-align: center;
+}
+
+/*  search area starts */
+
+/* the div main */
+.searchlin {
+  border: 2px solid black;
+  background:#024450;
+}
+
+
+
+/* names the div cotains the form and places */
+nav {
+  margin-left: -15px!important;
+  margin-right: 0!important;
+  overflow-y: auto!important;
+  color: white;
+  background: #024450;
+}
+
+/* lists name */
+
+.navbar-space.space ul :hover{
+  background: #5A6268;
+  padding-left: 20px;
+}
+.navbar-space.space ul{
+  list-style: none;
+  text-align: left;
+  margin-left: -30px;
+}
+
+form .trn-black{
+  opacity: 1!important;
+  background-color: black !important;
+}
+
+
+
+/* InfoWindow */
+.InfoWindow{
+  max-width: 350px;
+  line-height: 22px;
+}
+/*  search area ends */
+
+.network{
+  height: 100%;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bolder;
+  margin-top: 15%;
+}
+/* ///////////////////////////////////////////////////////// */
+    /* media query */
+
+    
+@media (min-width: 576px) {
+  .container {
+    max-width: 100%;
+  }
+  nav {
+    width: 106%!important;
+  }
+  
+  form .form-control.mrs-f-2 {
+    width: 400px;
+  }
+
+  form .trn_black {
+    width: 80px;
+    color: white!important;
+  }
+}
+
+@media (min-width: 768px) {
+  nav {
+    width: 103%!important;
+  }
+}
+
+@media (min-width: 992px) {
+  nav {
+    width: 111%!important;
+  }
+  .navbar-space.space {
+    display: block!important;
+  }
+
+  form .form-control.mrs-f-2,
+  form .trn_black{
+    width: 300px;
+    margin-bottom: 10px;
+  }
+  
+}
+
+
+@media (min-width: 1200px) {
+  nav {
+    width: 107%!important;
+  }
+
+
+  form .form-control.mrs-f-2 {
+    width: 275px;
+  }
+
+  form .trn-black {
+    width: 75px;
+    margin-top: -10px!Important;
+  }
+}
+
+@media (max-width: 575px) {
+  .container {
+    max-width: 100%;
+  }
+
+  nav {
+    margin-left: -15px!important;
+    margin-right: 0!important;
+    width: 106%!important;
+  }
+}
+
+
+
